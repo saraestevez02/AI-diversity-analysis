@@ -18,10 +18,13 @@ Recently, Artificial Intelligence (AI) has been reported to suffer from a divers
 
 This repository contains the code developed for my Bachelor Thesis. It is organized in the following way:
 
-- *parser* : Contains the DBLP parser devleoped which was designed to gather authors names and affiliations of some specified conference.
-- *gender_inference* : Contains the method developed to infer gender based on the authors names.
-- *country_inference*: Contains the country inference method based on the authors affiliation.
-- *affiliation_inference*: Method that classifies the authors affiliation in three main groups.
+- *data* : Contains the data archives used in the code.
+- *dblp_parser* : Contains the DBLP parser devleoped which was designed to gather authors names and affiliations of some specified conference.
+- *evaluation* : Contains the tests developed over the ground truth to see how well the inference methods were working.
+- *inference_methods* : Contains the three inference methos developed in this work
+  - *gender_inference* : Contains the method developed to infer gender based on the authors names.
+  - *country_inference*: Contains the country inference method based on the authors affiliation.
+  - *affiliation_inference*: Method that classifies the authors affiliation in three main groups.
 
 If wanting to run all the code, take the python notebooks following the order just explained. 
 
