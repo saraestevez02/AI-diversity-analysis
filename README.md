@@ -12,6 +12,7 @@ Recently, Artificial Intelligence (AI) has been reported to suffer from a divers
 
 ‼️ The outputs are not shown in order to protect authors anonymity, as it includes personal data.
 
+----
 
 ### Code
 
@@ -21,3 +22,7 @@ This repository contains the code developed for my Bachelor Thesis. It is organi
 - *gender_inference* : Contains the method developed to infer gender based on the authors names.
 - *country_inference*: Contains the country inference method based on the authors affiliation.
 - *affiliation_inference*: Method that classifies the authors affiliation in three main groups.
+
+If wanting to run all the code, take the python notebooks following the order just explained. 
+
+‼️ In this concrete example the code is processing UAI 2019 Conference from DBLP, but any conference belonging to DBLP webpage works.
